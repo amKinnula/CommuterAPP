@@ -1,0 +1,51 @@
+*   {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: limegreen;
+    color: black;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 100;
+    min-height: 100vh;
+    background-image: url("tausta.gif");
+    margin-left: 33%;
+}
+
+header {
+    background:Lightgreen;;
+    width: 60%;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    margin-left: 18%;
+}
+
+input {
+    margin-left: 35%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#junaLista {
+    background:rgb(81, 221, 81, 0.9);
+    width: 60%;
+}
+
+.sisalto {
+    padding: 8px;
+}
+
+.sisalto:nth-child(even) {
+    background-color: Lightgreen;
+}
+
+
+
+
+
